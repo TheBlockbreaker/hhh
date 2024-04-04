@@ -1,0 +1,191 @@
+<HTML>
+<HEAD>
+<TITLE>Mission: EarthQuest - Concept Art</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function plArray() {
+// set up preload image array function
+    var plArray = new Array();
+}
+//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// preload rollover images functionality
+// uses array set in plArray function
+function plImages(imgURL, cntr) {
+    if (navigator.appName == 'Netscape') {
+        plArray[cntr] = new Image;
+        plArray[cntr].src = imgURL;
+    }
+}
+//-->
+</SCRIPT>
+
+<!-- preload rollover images -->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// set up array used for this process
+  plArray();
+// preload each image needed on this page
+  plImages('../600shared/600bkto_az_on.gif', 0);
+  plImages('../600shared/600parents_on.gif', 1);
+  plImages('../600shared/600getit_on.gif', 2)
+  plImages('../600shared/600home_on.gif', 3);
+  plImages('../600shared/600cast_on.gif', 4);
+  plImages('../600shared/600crisis_on.gif', 5);
+  plImages('../600shared/600making_on.gif', 6);
+  plImages('../600shared/600locker_on.gif', 7);
+  plImages('../600shared/600sim_on.gif', 8);
+//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+function MM_swapImage() { //v1.2
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src = MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+
+function MM_swapImage2() { //v1.2
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData2;
+  for (i=0; i < (MM_swapImage2.arguments.length-2); i+=3) {
+    objStr = MM_swapImage2.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src = MM_swapImage2.arguments[i+2];
+  } }
+  document.MM_swapImgData2 = swapArray; //used for restore
+}
+
+function MM_swapImgRestore()
+{
+        if (document.MM_swapImgData != null)
+        {
+                for (i=0; i < (document.MM_swapImgData.length-1); i+=2)
+                        document.MM_swapImgData[i].src = document.MM_swapImgData[i+1];
+        }
+}
+function MM_swapImgRestore2()
+{
+        if (document.MM_swapImgData2 != null)
+        {
+                for (i=0; i < (document.MM_swapImgData2.length-1); i+=2)
+                        document.MM_swapImgData2[i].src = document.MM_swapImgData2[i+1];
+        }
+}
+
+//-->
+</SCRIPT>
+
+<!-- Margin equalizer -->
+<SCRIPT LANGUAGE = "JavaScript">
+
+<!-- In hiding!
+
+var spacer = "<IMG SRC='spacers/sp_001x001.gif' WIDTH='1' HEIGHT='7'><BR><IMG SRC='spacers/sp_001x001.gif' WIDTH='2' HEIGHT='1' ALIGN='LEFT'>"
+
+function doEqualizeMargins () {
+        if  (((navigator.appVersion.lastIndexOf('Mac') != -1)) && (parseInt(navigator.appVersion) == 3)) {
+                document.writeln(spacer)
+                // The basefont size in above line may need to be adjusted since it's hard-coded
+        }
+};
+// Stop hiding -->
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY bgcolor="#FFFFFF" background="../600shared/600bkgrd.gif" TEXT="#66FFFF" LINK="#ffffff" VLINK="#999999">
+<!-- Table 1: nav bar -->
+<TABLE BORDER="0" WIDTH="64" CELLSPACING="0" CELLPADDING="0" VSPACE="0" HSPACE="0" ALIGN="left">
+	<TR>
+		<TD><IMG SRC="../../spacers/sp_001x001.gif" WIDTH="1" HEIGHT="1" BORDER="0" VSPACE="0" HSPACE="0"><BR>
+			<A HREF="../../200transporter/200index.html" ONMOUSEOVER="MM_swapImage('document.azBttn','document.azBttn','../600shared/600bkto_az_on.gif','MM_swapImage5')" ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../600shared/600bkto_az_of.gif" WIDTH="56" HEIGHT="39" BORDER="0" VSPACE="0" HSPACE="0" ALT="back to Adventure Zone" NAME="azBttn"></A><BR>
+			<IMG SRC="../../spacers/sp_001x001.gif" WIDTH="48" HEIGHT="11" VSPACE="0" HSPACE="0" BORDER="0"><BR>
+			<A HREF="http://www.jumpstart.com/" ONMOUSEOVER="MM_swapImage('document.parentsBttn','document.parentsBttn','../600shared/600parents_on.gif','MM_swapImage5')" ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../600shared/600parents_of.gif" WIDTH="56" HEIGHT="39" BORDER="0" VSPACE="0" HSPACE="0" ALT="go to JumpStart.com" NAME="parentsBttn"></A><BR>
+			<IMG SRC="../../spacers/sp_001x001.gif" WIDTH="48" HEIGHT="11" BORDER="0" VSPACE="0" HSPACE="0"><BR>
+      <A HREF="../602other/602getit.html" ONMOUSEOVER="MM_swapImage('document.getitBttn','document.getitBttn','../600shared/600getit_on.gif','MM_swapImage5')" ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../600shared/600getit_of.gif" WIDTH="56" HEIGHT="31" BORDER="0" VSPACE="0" HSPACE="0" ALT="how to get it" NAME="getitBttn"></A><BR>
+			<IMG SRC="../../spacers/sp_001x001.gif" WIDTH="5" HEIGHT="11" BORDER="0" VSPACE="0" HSPACE="0"><BR>
+			<A HREF="../600index.html" ONMOUSEOVER="MM_swapImage('document.homeBttn','document.homeBttn','../600shared/600home_on.gif','MM_swapImage5')" ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../600shared/600home_of.gif" WIDTH="64" HEIGHT="31" BORDER="0" VSPACE="0" HSPACE="0" NAME="homeBttn"></A><BR>
+      <A HREF="../610cast/610index.html" ONMOUSEOVER="MM_swapImage('document.castBttn','document.castBttn','../600shared/600cast_on.gif','MM_swapImage5')" ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../600shared/600cast_of.gif" WIDTH="64" HEIGHT="33" BORDER="0" VSPACE="0" HSPACE="0" ALT="the cast" NAME="castBttn"></A><BR>
+      <A HREF="../630crisis/630index.html" ONMOUSEOVER="MM_swapImage('document.crisisBttn','document.crisisBttn','../600shared/600crisis_on.gif','MM_swapImage5')" ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../600shared/600crisis_of.gif" WIDTH="64" HEIGHT="32" BORDER="0" VSPACE="0" HSPACE="0" ALT="the crisis" NAME="crisisBttn"></A><BR>
+<A HREF="620index.html"><IMG SRC="../600shared/600making_on.gif" WIDTH="64" HEIGHT="34" BORDER="0" VSPACE="0" HSPACE="0" ALT="the making of.." NAME="makingBttn"></a><BR>
+      <A HREF="../640locker/640index.html" ONMOUSEOVER="MM_swapImage('document.lockerBttn','document.lockerBttn','../600shared/600locker_on.gif','MM_swapImage5')" ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../600shared/600locker_of.gif" WIDTH="64" HEIGHT="32" BORDER="0" VSPACE="0" HSPACE="0" ALT="the equipment locker" NAME="lockerBttn"></A><BR>
+      <A HREF="../650simulator/650index.html" ONMOUSEOVER="MM_swapImage('document.simBttn','document.simBttn','../600shared/600sim_on.gif','MM_swapImage5')" ONMOUSEOUT="MM_swapImgRestore()"><IMG SRC="../600shared/600sim_of.gif" WIDTH="64" HEIGHT="32" BORDER="0" ALT="mission simulator" VSPACE="0" HSPACE="0" NAME="simBttn"></A><BR>
+		</TD>
+	</TR>
+</TABLE>
+
+
+
+<!-- Table 2: earthQuest logo -->
+<TABLE BORDER="0" WIDTH="536" VSPACE="0" HSPACE="0" CELLSPACING="0" CELLPADDING="0">
+	<TR>
+		<TD><IMG SRC="../600shared/600quest_logo.gif" WIDTH="135" HEIGHT="57" BORDER="0" VSPACE="0" HSPACE="0"><IMG SRC="620making_hdr.gif" WIDTH="262" HEIGHT="57" BORDER="0" VSPACE="0" HSPACE="0"><IMG SRC="../600shared/600sixth_logo.gif" WIDTH="139" HEIGHT="57" BORDER="0" VSPACE="0" HSPACE="0" ALT="6th grade JumpStart logo"></TD>
+	</TR>
+</TABLE>
+
+<!-- Table 3: main area -->
+<TABLE border="0" width="433" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+	<TR>
+		<TD width="11"><IMG src="../../spacers/sp_001x001.gif" width="11" height="1"></TD>
+		<TD width="171" valign="top"><IMG src="../../spacers/sp_001x001.gif" width="11" height="20"><br>
+			<IMG src="621concept/621concept_hdr.gif" width="133" height="57"><br>
+      <IMG src="621concept/621bots/621bots_hdr.gif" width="127" height="38"><br>
+		</TD>
+		<TD width="251" valign="top">
+			<DIV align="center"><IMG src="../../spacers/sp_001x001.gif" width="11" height="20"><br>
+				<IMG src="../../shared/undercont.gif" width="251" height="63"><br>
+				<FONT face="Arial, Helvetica, sans-serif" size="-1">Ooops! We're
+				not finished yet.<br> Check back soon to see more.</FONT></DIV>
+		</TD>
+	</TR>
+
+</TABLE>
+
+<!-- TEXT LINKS -->
+<TABLE BORDER="0" WIDTH="536" CELLSPACING="0" CELLPADDING="0">
+	<TR>
+		<TD><IMG SRC="../../spacers/sp_001x001.gif" WIDTH="1" HEIGHT="40" border="0"><br>
+		<center>
+				<FONT face="Arial, Helvetica, sans-serif" size="-1"><A HREF="620concept.html">concept
+				art:</A> | <A HREF="621con_earthq.html">EarthQuest</A>
+				| <A HREF="621con_toxic.html">Toxic Area</A> | <A HREF="621con_pyramid.html">Pyramid
+				Area</A><br>
+				<A HREF="621con_jess.html">Jess</A> | <A HREF="621con_zack.html">Zack</A> | <A HREF="621con_uncle.html">Uncle Eli/Roswell</A> | <A 				HREF="621con_enos.html">Enos</A><br> | <A HREF="621con_art.html">A.R.T.</A> | Bad Bots</FONT>
+			</CENTER></TD>
+	</TR>
+</TABLE><!-- END TEXT LINKS -->
+
+<!-- TABLE for copyright, SPACER can be adjusted higher or lower on the page -->
+<TABLE BORDER="0" WIDTH="536" CELLSPACING="0" CELLPADDING="0" VSPACE="0" HSPACE="0">
+	<TR>
+		<TD><IMG SRC="../../spacers/sp_001x001.gif" WIDTH="1" HEIGHT="20"></TD>
+	<TR>
+	<TR>
+		<TD><CENTER><P><FONT FACE="Arial, Helvetica, sans-serif" SIZE="-2"><A href="../602other/602legal.html">Copyright &copy; 1998 Knowledge Adventure, Inc. All Rights Reserved.<br>Please review our Legal Notices page.</A></FONT></P></CENTER></TD>
+	</TR>
+</TABLE><!-- END TABLE for copyright -->
+
+
+</BODY>
+</HTML>
